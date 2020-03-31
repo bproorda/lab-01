@@ -4,20 +4,33 @@
     width: 100%;
     background-color: crimson;
 }
+#a p {
+    line-height: 75px;
+}
 #b {
     height: 150px;
     width: 100%;
     background-color: darkblue;
 }
+#b {
+    line-height: 150px;
+}
+
 #c, #d {
     height: 125px;
     width: 100%px;
+}
+#c p, #d p {
+    line-height: 125px;
 }
 #e, #f, #g, #h {
     height: 250px;
     width: 50%;
     max-width: 250px;
     margin: 0;
+}
+#e p, #f p, #g p, #h p {
+    line-height: 250px;
 }
 #f, #h {
     float: right;
@@ -27,6 +40,9 @@
     width: 480px;
     clear: both;
     background-color: darkkhaki;
+}
+#i p {
+    line-height: 80px;
 }
 #c {
     background-color: darkturquoise;
@@ -54,6 +70,9 @@
         width: 100%;
         background-color: lightgoldenrodyellow;
     }
+    #a p{
+        line-height: 100px;
+    }
     #b {
         height: 79%;
         max-height: 600px;
@@ -61,9 +80,15 @@
         background-color: greenyellow;
         float: left;
     }
+    #b p {
+        line-height: 600px;
+    }
     #c, #d {
         height: 100%;
         width: 50%;
+    }
+    #c p, #d p{
+        line-height: 200px;
     }
     #d {
         float: right;
@@ -72,7 +97,9 @@
         height: 250px;
         width: 50%;
         margin: 0;
-        /* display: inline-block; */
+    }
+    #e p, #f p, #g p, #h p {
+        line-height: 250px;
     }
     #i {
         height: 25%;
@@ -80,6 +107,9 @@
         width: 100%;
         clear: both;
         background-color: darkkhaki;
+    }
+    #i {
+        line-height: 150px;
     }
     #c {
         background-color: darkturquoise;
