@@ -1,0 +1,103 @@
+@media (min-width: 480px) {
+#a {
+    height: 75px;
+    width: 480px;
+    background-color: crimson;
+}
+#b {
+    height: 150px;
+    width: 480px;
+    background-color: darkblue;
+}
+#c, #d {
+    height: 125px;
+    width: 480px;
+}
+#e, #f, #g, #h {
+    height: 250px;
+    width: 50%;
+    max-width: 250px;
+    margin: 0;
+}
+#f, #h {
+    float: right;
+}
+#i {
+    height: 80px;
+    width: 480px;
+    clear: both;
+    background-color: darkkhaki;
+}
+#c {
+    background-color: darkturquoise;
+}
+#d {
+    background-color: forestgreen;
+}
+#e {
+    background-color: greenyellow;
+}
+#f {
+    background-color: indianred;
+}
+#g {
+    background-color: ivory;
+}
+#h {
+    background-color: rgb(180, 180, 57);
+}
+}
+
+@media (min-width: 768px) {
+    #a {
+        height: 100px;
+        width: 100%;
+        background-color: lightgoldenrodyellow;
+    }
+    #b {
+        height: 79%;
+        max-height: 600px;
+        width: 20.8%;
+        background-color: greenyellow;
+        float: left;
+    }
+    #c, #d {
+        height: 100%;
+        width: 50%;
+    }
+    #d {
+        float: right;
+    }
+    #e, #f, #g, #h {
+        height: 250px;
+        width: 50%;
+        margin: 0;
+        /* display: inline-block; */
+    }
+    #i {
+        height: 25%;
+        max-height: 150px;
+        width: 100%;
+        clear: both;
+        background-color: darkkhaki;
+    }
+    #c {
+        background-color: darkturquoise;
+    }
+    #d {
+        background-color: forestgreen;
+    }
+    #e {
+        background-color: rgb(47, 161, 255);
+    }
+    #f {
+        background-color: indianred;
+    }
+    #g {
+        background-color: rgb(218, 18, 11);
+    }
+    #h {
+        background-color: rgb(65, 15, 182);
+    }
+    }
+}
