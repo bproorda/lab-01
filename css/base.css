@@ -16,6 +16,17 @@ body {
 }
 /* end of media query    */
 }
+@media screen and (min-width: 615px) {
+    body {
+        background-color: green;
+        max-width: 983px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 200px auto;
+        grid-template-rows: 100px auto 100px;
+
+    /* end of media query    */
+}
 @media screen and (min-width: 768px) {
 body {
     background-color: cornflowerblue;
