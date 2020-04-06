@@ -1,4 +1,6 @@
-
+div {
+    border: 1px solid black;
+}
 #a {
     width: 100%;
     background-color: crimson;
@@ -45,9 +47,7 @@
 
 
 #i {
-    height: 80px;
-    width: 480px;
-    /* clear: both; */
+   
     background-color: darkkhaki;
 }
 #i p {
@@ -70,6 +70,18 @@
 }
 #h {
     background-color: rgb(180, 180, 57);
+}
+@media screen and (min-width: 615px) {
+#b {
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+}
+#i {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+}
+
+/* end of media query     */
 }
 
 
